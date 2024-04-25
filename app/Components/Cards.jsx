@@ -23,12 +23,12 @@ const Cards = () => {
 
 ]
   return (
-    <div  className='my-32'>
-      <div className='flex flex-col lg:flex-row items-center gap-y-16 gap-x-10 px-20'>
+    <div  className='my-16'>
+      <div className='flex flex-col lg:flex-row items-center gap-y-4 gap-x-10 px-4 md:px-20'>
         {
             cards.map((card, index) => {
                 return (
-                    <div id='WhyUs' key={index} style={{ backdropFilter: "blur(10px)", backgroundColor: "rgba(255, 255, 255, 0.1)", }} className='rounded-3xl flex flex-col gap-y-16 p-16 items-start'>
+                    <div id='WhyUs' key={index} style={{ backdropFilter: "blur(10px)", backgroundColor: "rgba(255, 255, 255, 0.1)", }} className='rounded-3xl flex flex-col gap-y-4 md:gap-y-16 p-4 md:p-16 items-start'>
                         <img src='/Frame (2).png' alt='photo' className='w-16 h-16 md:w-24 md:h-24 rounded-full' />
                         <p className='text-white text-lg md:text-2xl lg:text-3xl text-start '>{card.dis}</p>
                         <div className='flex flex-row items-center gap-x-4'>

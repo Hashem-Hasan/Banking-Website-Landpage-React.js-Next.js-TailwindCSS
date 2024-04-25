@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Wdwo = () => {
   return (
     <div id='Wdwo' className='flex items-center flex-col gap-y-16 px-10'>
-        <h1 className=' text-3xl md:text-6xl font-bold px-10'>What do we offer?</h1>
+        <h1 className=' text-3xl md:text-6xl font-bold px-8'>What do we offer?</h1>
       <div className='flex flex-col gap-x-20 md:flex-row gap-y-20'>
         <div className='flex flex-row items-center gap-x-6'>
             <Image src='/f.png' alt='icon' width={70} height={100} />
