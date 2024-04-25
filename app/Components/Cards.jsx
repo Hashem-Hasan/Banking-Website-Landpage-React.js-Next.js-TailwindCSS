@@ -23,7 +23,7 @@ const Cards = () => {
 
 ]
   return (
-    <div  className='my-16'>
+    <div  className='my-16 '>
       <div className='flex flex-col lg:flex-row items-center gap-y-4 gap-x-10 px-4 md:px-20'>
         {
             cards.map((card, index) => {
